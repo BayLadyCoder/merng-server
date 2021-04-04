@@ -1,0 +1,31 @@
+{
+  "name": "social-media-merng-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BayLadyCoder/social-media-merng-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BayLadyCoder/social-media-merng-stack/issues"
+  },
+  "homepage": "https://github.com/BayLadyCoder/social-media-merng-stack#readme",
+  "dependencies": {
+    "apollo-server": "^2.22.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  }
+}
